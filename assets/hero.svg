@@ -1,0 +1,98 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 300" width="1000" height="300"
+     role="img" aria-label="Abhigyan Mahanta — I build the layer that refuses to trust the output">
+  <defs>
+    <linearGradient id="sweep" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%"   stop-color="#FE2E2E" stop-opacity="0"/>
+      <stop offset="50%"  stop-color="#FE2E2E" stop-opacity=".9"/>
+      <stop offset="100%" stop-color="#FE2E2E" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="rule" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#FE2E2E"/><stop offset="100%" stop-color="#FE2E2E" stop-opacity="0"/>
+    </linearGradient>
+    <pattern id="grid" width="28" height="28" patternUnits="userSpaceOnUse">
+      <path d="M28 0H0V28" fill="none" stroke="#1c222a" stroke-width="1"/>
+    </pattern>
+    <clipPath id="stage"><rect x="548" y="76" width="418" height="118" rx="8"/></clipPath>
+    <style>
+      .n  { font: 700 41px ui-sans-serif,-apple-system,"Segoe UI",Roboto,Helvetica,Arial,sans-serif; fill:#f0f6fc; letter-spacing:-.6px }
+      .r  { font: 500 15px ui-sans-serif,-apple-system,"Segoe UI",Roboto,Helvetica,Arial,sans-serif; fill:#8b949e }
+      .t  { font: 600 16px ui-sans-serif,-apple-system,"Segoe UI",Roboto,Helvetica,Arial,sans-serif; fill:#e6edf3 }
+      .m  { font: 400 11px ui-monospace,SFMono-Regular,Menlo,monospace; fill:#6e7681 }
+      .k  { font: 700 10px ui-monospace,SFMono-Regular,Menlo,monospace; letter-spacing:1px }
+      .lbl{ font: 700 9px ui-monospace,SFMono-Regular,Menlo,monospace; letter-spacing:1.4px; fill:#6e7681 }
+    </style>
+  </defs>
+
+  <rect width="1000" height="300" rx="12" fill="#0d1117"/>
+  <rect width="1000" height="300" rx="12" fill="url(#grid)" opacity=".6"/>
+  <rect x="0" y="0" width="4" height="300" fill="#FE2E2E"/>
+
+  <text class="n" x="46" y="88">Abhigyan Mahanta</text>
+  <text class="r" x="48" y="116">Co-founder, RAAY Creative — AI-led marketing &amp; creative studio</text>
+  <rect x="48" y="136" width="330" height="2" fill="url(#rule)"/>
+  <text class="t" x="48" y="170">I build the layer that refuses to trust the output.</text>
+  <text class="m" x="48" y="198">Generative systems fail by producing work that looks right and is wrong.</text>
+  <text class="m" x="48" y="216">The gate, the verifier, the ledger that reports only what was measured.</text>
+  <text class="lbl" x="48" y="256">ASSAM, INDIA · RAAYCREATIVE.COM</text>
+
+  <text class="lbl" x="548" y="64">FIDELITY GATE</text>
+  <circle cx="642" cy="60" r="3" fill="#3fb950">
+    <animate attributeName="opacity" values="1;.25;1" dur="1.8s" repeatCount="indefinite"/>
+  </circle>
+  <text class="lbl" x="652" y="64" fill="#3fb950">RUNNING</text>
+
+  <rect x="548" y="76" width="418" height="118" rx="8" fill="#010409" stroke="#21262d"/>
+  <g clip-path="url(#stage)">
+    <g>
+      <animateTransform attributeName="transform" type="translate"
+        values="430,0;-160,0" dur="11s" repeatCount="indefinite"/>
+      <g>
+        <rect x="0" y="90" width="86" height="90" rx="5" fill="#0d1117" stroke="#30363d"/>
+        <rect x="10" y="100" width="66" height="40" rx="3" fill="#161b22"/>
+        <rect x="10" y="148" width="44" height="6" rx="3" fill="#161b22"/>
+        <rect x="10" y="160" width="30" height="6" rx="3" fill="#161b22"/>
+      </g>
+      <g transform="translate(140,0)">
+        <rect x="0" y="90" width="86" height="90" rx="5" fill="#0d1117" stroke="#30363d"/>
+        <rect x="10" y="100" width="66" height="40" rx="3" fill="#161b22"/>
+        <rect x="10" y="148" width="52" height="6" rx="3" fill="#161b22"/>
+        <rect x="10" y="160" width="24" height="6" rx="3" fill="#161b22"/>
+      </g>
+      <g transform="translate(280,0)">
+        <rect x="0" y="90" width="86" height="90" rx="5" fill="#0d1117" stroke="#30363d"/>
+        <rect x="10" y="100" width="66" height="40" rx="3" fill="#161b22"/>
+        <rect x="10" y="148" width="38" height="6" rx="3" fill="#161b22"/>
+        <rect x="10" y="160" width="46" height="6" rx="3" fill="#161b22"/>
+      </g>
+    </g>
+    <rect y="76" width="64" height="118" fill="url(#sweep)">
+      <animate attributeName="x" values="540;902;540" dur="5s" repeatCount="indefinite"/>
+    </rect>
+  </g>
+
+  <!-- verdicts: always visible, staggered pulse -->
+  <g transform="translate(548,210)">
+    <g>
+      <rect width="112" height="22" rx="11" fill="#0f2e1c" stroke="#238636"/>
+      <circle cx="14" cy="11" r="3.5" fill="#3fb950">
+        <animate attributeName="opacity" values=".35;1;.35" dur="2.6s" begin="0s" repeatCount="indefinite"/>
+      </circle>
+      <text class="k" x="26" y="15" fill="#3fb950">PASS · 312</text>
+    </g>
+    <g transform="translate(124,0)">
+      <rect width="104" height="22" rx="11" fill="#3d1418" stroke="#da3633"/>
+      <circle cx="14" cy="11" r="3.5" fill="#ff7b72">
+        <animate attributeName="opacity" values=".35;1;.35" dur="2.6s" begin=".85s" repeatCount="indefinite"/>
+      </circle>
+      <text class="k" x="26" y="15" fill="#ff7b72">FAIL · 0</text>
+    </g>
+    <g transform="translate(240,0)">
+      <rect width="112" height="22" rx="11" fill="#0f2e1c" stroke="#238636"/>
+      <circle cx="14" cy="11" r="3.5" fill="#3fb950">
+        <animate attributeName="opacity" values=".35;1;.35" dur="2.6s" begin="1.7s" repeatCount="indefinite"/>
+      </circle>
+      <text class="k" x="26" y="15" fill="#3fb950">PASS · 349</text>
+    </g>
+  </g>
+  <text class="m" x="548" y="256">SIFT/RANSAC inlier count — measured, never eyeballed</text>
+</svg>
