@@ -126,5 +126,5 @@ So most of what I build is the layer that refuses to trust the output. The gate,
 </p>
 
 <div align="center">
-  <sub>📍 Assam, India · <a href="https://raaycreative.com">raaycreative.com</a> · Every graphic on this page is generated, not stock.</sub>
+  <sub>📍 New Delhi, India · <a href="https://raaycreative.com">raaycreative.com</a> · Every graphic on this page is generated, not stock.</sub>
 </div>
