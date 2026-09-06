@@ -1,0 +1,86 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 330" width="1000" height="330"
+     role="img" aria-label="Six repositories, one claim: refuse to trust the output">
+  <defs>
+    <pattern id="g2" width="28" height="28" patternUnits="userSpaceOnUse">
+      <path d="M28 0H0V28" fill="none" stroke="#1c222a" stroke-width="1"/>
+    </pattern>
+    <linearGradient id="hl" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#FE2E2E" stop-opacity="0"/>
+      <stop offset="50%" stop-color="#FE2E2E" stop-opacity=".55"/>
+      <stop offset="100%" stop-color="#FE2E2E" stop-opacity="0"/>
+    </linearGradient>
+    <style>
+      .h  { font: 700 19px ui-sans-serif,-apple-system,"Segoe UI",Roboto,sans-serif; fill:#f0f6fc; letter-spacing:-.2px }
+      .sh { font: 400 12.5px ui-sans-serif,-apple-system,"Segoe UI",Roboto,sans-serif; fill:#8b949e }
+      .rn { font: 700 13px ui-monospace,SFMono-Regular,Menlo,monospace; fill:#e6edf3 }
+      .rd { font: 400 11px ui-sans-serif,-apple-system,"Segoe UI",Roboto,sans-serif; fill:#8b949e }
+      .rf { font: 700 8.5px ui-monospace,SFMono-Regular,Menlo,monospace; letter-spacing:1.1px; fill:#FE2E2E }
+    </style>
+  </defs>
+  <rect width="1000" height="330" rx="12" fill="#0d1117"/>
+  <rect width="1000" height="330" rx="12" fill="url(#g2)" opacity=".6"/>
+
+  <text class="h" x="34" y="42">Six repositories, one claim</text>
+  <text class="sh" x="34" y="64">Each one refuses to trust a different thing. That refusal is the product.</text>
+
+  <g>
+    <!-- row 1 -->
+    <g transform="translate(34,92)">
+      <rect width="300" height="98" rx="9" fill="#161b22" stroke="#30363d"/>
+      <rect width="3" height="98" rx="2" fill="#FE2E2E"/>
+      <text class="rf" x="18" y="26">REFUSES: “IT LOOKS FINE”</text>
+      <text class="rn" x="18" y="50">packfix</text>
+      <text class="rd" x="18" y="70">SIFT/RANSAC inlier gate. A generated frame</text>
+      <text class="rd" x="18" y="86">passes only when the real print is measurably there.</text>
+    </g>
+    <g transform="translate(350,92)">
+      <rect width="300" height="98" rx="9" fill="#161b22" stroke="#30363d"/>
+      <rect width="3" height="98" rx="2" fill="#FE2E2E"/>
+      <text class="rf" x="18" y="26">REFUSES: A 200 RESPONSE</text>
+      <text class="rn" x="18" y="50">raaycreative.com</text>
+      <text class="rd" x="18" y="70">Deploy verifier written after the site served</text>
+      <text class="rd" x="18" y="86">an hour with every asset 404ing behind a 200.</text>
+    </g>
+    <g transform="translate(666,92)">
+      <rect width="300" height="98" rx="9" fill="#161b22" stroke="#30363d"/>
+      <rect width="3" height="98" rx="2" fill="#FE2E2E"/>
+      <text class="rf" x="18" y="26">REFUSES: A MODEL'S TIMECODE</text>
+      <text class="rn" x="18" y="50">precision-video-editor</text>
+      <text class="rd" x="18" y="70">The model decides the cut and never touches</text>
+      <text class="rd" x="18" y="86">a frame number. Resolution is pure lookup.</text>
+    </g>
+    <!-- row 2 -->
+    <g transform="translate(34,204)">
+      <rect width="300" height="98" rx="9" fill="#161b22" stroke="#30363d"/>
+      <rect width="3" height="98" rx="2" fill="#FE2E2E"/>
+      <text class="rf" x="18" y="26">REFUSES: A HARVESTED CORPUS</text>
+      <text class="rn" x="18" y="50">hub-pipelines</text>
+      <text class="rd" x="18" y="70">Four research pipelines, one stage contract.</text>
+      <text class="rd" x="18" y="86">Ships the scrapers, never the scraped.</text>
+    </g>
+    <g transform="translate(350,204)">
+      <rect width="300" height="98" rx="9" fill="#161b22" stroke="#30363d"/>
+      <rect width="3" height="98" rx="2" fill="#FE2E2E"/>
+      <text class="rf" x="18" y="26">REFUSES: A HALF-BUILT DAY</text>
+      <text class="rn" x="18" y="50">lead-engine</text>
+      <text class="rd" x="18" y="70">A control plane that will not advance a stage</text>
+      <text class="rd" x="18" y="86">after a failed one. Published with its postmortem.</text>
+    </g>
+    <g transform="translate(666,204)">
+      <rect width="300" height="98" rx="9" fill="#161b22" stroke="#30363d"/>
+      <rect width="3" height="98" rx="2" fill="#FE2E2E"/>
+      <text class="rf" x="18" y="26">REFUSES: AN UNLOGGED CLAIM</text>
+      <text class="rn" x="18" y="50">agent-telemetry</text>
+      <text class="rd" x="18" y="70">Infers which pipeline ran from observed stages.</text>
+      <text class="rd" x="18" y="86">Reports only what telemetry actually logged.</text>
+    </g>
+  </g>
+
+  <!-- travelling highlight -->
+  <rect y="92" width="150" height="98" rx="9" fill="url(#hl)">
+    <animate attributeName="x" values="-150;34;350;666;1000" dur="8s" repeatCount="indefinite"/>
+  </rect>
+  <rect y="204" width="150" height="98" rx="9" fill="url(#hl)">
+    <animate attributeName="x" values="-150;34;350;666;1000" dur="8s" begin="4s" repeatCount="indefinite"/>
+  </rect>
+</svg>
